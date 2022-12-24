@@ -13,3 +13,4 @@ public class hw1 {
         System.out.print(c);
     }
 }
+//Доробити завдання 3
