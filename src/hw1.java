@@ -11,6 +11,17 @@ public class hw1 {
         float c = a+b;
         System.out.print("\n");
         System.out.print(c);
+        System.out.print("\n");
+
+        int number =123;
+        int hundred = number / 100;
+        System.out.println(hundred);
+        int ten = number / 10 % 10;
+        System.out.println(ten);
+        int  unit =number % 10;
+        System.out.println(unit);
+
+
     }
 }
-//Доробити завдання 3
+

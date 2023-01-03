@@ -21,10 +21,18 @@ public class hw2 {
         if (number>=1 && number<12){
             System.out.printf(" доброго ранку");
         }
-        else if (number>=12 && number <20){
+        else if (number==12) {
+            System.out.printf(" доброго ранку");
             System.out.printf(" доброго дня");
         }
-        else if (number>=20 && number <=24){
+        else if (number>12 && number <20){
+            System.out.printf(" доброго дня");
+        }
+        else if (number==20) {
+            System.out.printf(" доброго ранку");
+            System.out.printf(" доброї ночі");
+        }
+        else if (number>20 && number <=24){
             System.out.printf(" доброї ночі");
         }
         else System.out.print("Число не відповідає умові");
