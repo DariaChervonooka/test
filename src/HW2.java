@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hw2 {
+public class HW2 {
     public static void main(String[] args) {
         int a = 2;
         int b = 3;
